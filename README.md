@@ -6,7 +6,9 @@ AUTHOR: pbenedetti@itba.edu.ar
 
 ## GrAv2023_epochsOut.py
 -TASK: Takes epochs as an input and having bads_preICA and bads_postICA for a given band, for each subject and each condition, identifies epochs wich PSD is an outlier. It does so by computing the means of the epoch for all channels and freq of the band. Bads channels are excluded.
+
 -OUTPUT: psd_outliers_{band_name}.csv
+
 -PIPELINE: protocol2023_V2 --> GrAv2023_epochsOut.py
 
 ## GrAv2023_means.py
